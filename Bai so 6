@@ -1,0 +1,41 @@
+package basic.dev;
+
+public class MainApp {
+	public static void main(String[] args) {
+		//Thong tin mot sinh vien
+		String name = "Tran Hoang Loc";
+		System.out.println("Ho va ten sinh vien: " + name);
+		String number = "123456";
+		System.out.println("Ma so sinh vien: " + number);
+		String cccd = "037671825138";
+		System.out.println("Can cuoc cong dan: " + cccd);
+		String lop = "11A3";
+		System.out.println("Ten lop: " + lop);
+		String truong = "THCS Chu Van An";
+		System.out.println("Ten truong: " + truong);
+		double dtb = 8.2;
+		System.out.println("Diem trung binh: " + dtb);
+		
+		//Thong tin mot cong nhan
+		String ten = "Nguyen Van Linh";
+		System.out.println("Ten cong nhan: " + ten);
+		String diaChi = "06 Le Loi";
+		System.out.println("Dia chi: " + diaChi);
+		String sdt = "0876547869";
+		System.out.println("SDT: " + sdt);
+		double luong = 6.8;
+		System.out.println("He so luong: " + luong);
+		
+		//Thong tin mot chiec xe car
+		String nameCar = "BMW200";
+		System.out.println("Ten Xe: " + nameCar);
+		String hang = "BMW";
+		System.out.println("Hang xe: " + hang);
+		double gia = 2300000000.0;
+		System.out.println("Gia xe: " + gia);
+		String mau = "Trang";
+		System.out.println("Mau son: " + mau);
+		
+	}
+
+}
