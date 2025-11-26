@@ -1,0 +1,33 @@
+package basic.dev;
+
+import java.util.Scanner;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Nhap a = ");
+		int a = sc.nextInt();
+		System.out.print("Nhap b = ");
+		int b = sc.nextInt();
+		int tong = a + b;
+		System.out.println("tong a + b = " + tong);
+		int hieu = a - b;
+		System.out.println("hieu a - b = " + hieu);
+		int tich = a * b;
+		System.out.println("tich a * b = " + tich);
+		double thuong = a / b;
+		System.out.println("thuong a / b = " + thuong);
+		boolean c;
+		c = a > b;
+		System.out.println("a > b:" + c);
+		c = a < b;
+		System.out.println("a < b:" + c);
+		c = a >= b;
+		System.out.println("a >= b:" + c);
+		c = a <= b;
+		System.out.println("a <= b:" + c);
+	}
+
+}
