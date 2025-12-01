@@ -1,0 +1,32 @@
+package basic.dev;
+
+import java.util.Scanner;
+
+public class MainApp2 {
+	
+     public static void main(String[] args) {
+
+		// TODO Auto-generated constructor stub
+    	 
+		//9.2 So nguyen n chia het cho 3 hay 5
+    	 
+		Scanner sc = new Scanner(System.in);
+				
+		System.out.print("Nhap so nguyen n: ");
+		  int n = sc.nextInt();
+		  /* n chia het cho ca 3 va 5 */
+		  if(n % 3 == 0 && n % 5 == 0){
+			System.out.println("n chia het cho ca 3 va 5");
+		  /* n chia het cho 3, khong chia het cho 5 */
+		  }else if(n % 3 == 0 && n % 5 != 0 ) {
+			System.out.println("n chia het cho 3 nhung khong chia het cho 5");
+		  /* n chia het cho 5, khong chia het cho 3 */
+		  }else if(n % 3 != 0 && n % 5 == 0) {
+			System.out.println("n chia het cho 5 nhung khong chia het cho 3");
+		  /* n khong chia het cho 3 va 5 */
+		  }else if(n % 3 != 0 && n % 5 != 0) {
+			System.out.println("n khong chia het cho 3 va 5");
+		 }
+	}
+	
+}
