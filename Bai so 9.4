@@ -1,0 +1,38 @@
+package basic.dev;
+
+import java.util.Scanner;
+
+public class MainApp4 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+//9.4 Giai phuong trinh bac 2
+		
+	    /* a^2x+bx+c= 0*/
+	    System.out.print("nhap a: ");
+	    int a = sc.nextInt();
+	    System.out.print("nhap b: ");
+	    int b = sc.nextInt();
+	    System.out.print("nhap c: ");
+	    int c = sc.nextInt();
+	    double x1;
+	    double x2;		
+	    // denta = b^2-4ac
+	    double delta = b * b - 4 * a * c;
+	    if (delta > 0) {
+		System.out.println("Phuong trinh co 2 nghiem");
+	    // x1 = (-b + can(delta)) / ( 2 * a)
+	    // x2 = (-b - can(delta)) / ( 2 * a)
+		    x1 = (-b + Math.sqrt(delta)) / ( 2 * a);
+		    x2 = (-b - Math.sqrt(delta)) / ( 2 * a);
+		    }else if (delta == 0) {
+		    System.out.println("Phuong trinh co 2 nghiem kep");
+	    // x1 = x2 = -b / ( 2* a)
+		    x1 = x2 = -b / ( 2* a);
+		    }else if ( delta < 0) {
+		    System.out.println("Phuong trinh vo nghiem");
+		    }
+	    }
+
+	}
+
